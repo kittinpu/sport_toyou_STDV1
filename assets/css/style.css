@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+.jumbotron{
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 60px;
+}
+.jumbotron h1{
+    font-size: 42px;
+}
+nav{
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.task.important {
+    border-left: 3px solid #2C3E50;
+    margin-bottom: 10px;
+}
+.task {
+    background: #fcfcfc;
+    border: 1px solid #eee;
+    border-left: 3px solid #eee;
+    padding: 10px 15px;
+    font-size: 13px;
+}
+.task a{
+    color: black!important;
+}
+.task a:hover{
+    color: #18BC9C!important;
+}
+.text-right{
+    float: right;
+    color: blue;
+}
+.list-group .list-group-item a{
+    color: black!important;
+}
+.list-group .list-group-item a:hover{
+    color: #18BC9C!important;
+}
+.head-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #18BC9C;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+.line{
+    background: blue;
+    margin-bottom: 9px;
+    margin-top: 5px;
+}
+.product{
+    margin: 0 -11px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.product b{
+    font-size: 12px;
+}
+.under{
+    background-color: #2C3E50;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+.upper{
+    background-color: #ecf0f1;
+    color: #3498DB;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.login{
+    display: block;
+    background: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid lavender;
+    box-shadow: 0px 0px 10px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.login .btn{
+    width: 90%;
+}
+.form-check{
+    margin-left: 16px;
+}
+.bg-login{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -15px;
+    left: 40%;
+}
+.widget-panel {
+    padding: 30px 20px;
+    padding-left: 30px;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.bg-white {
+    background-color: #fcfcfc !important;
+}
+.widget-style-2 i {
+    background: rgba(244, 248, 251, 0.6) !important;
+    font-size: 48px;
+    padding: 30px 40px;
+}
+.widget-panel i {
+    font-size: 60px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    line-height: 60px;
+}
+.text-primary {
+    color: #5d9cec !important;
+}
+.text-dark {
+    color: #797979 !important;
+}
+.font-600 {
+    font-weight: 600;
+}
+.m-0 {
+    margin: 0 !important;
+}
+.text-dark {
+    color: #343a40!important;
+}
+.text-muted {
+    color: #98a6ad !important;
+}
+.m-t-5 {
+    margin-top: 5px !important;
+}
+.text-muted {
+    color: #6c757d!important;
+}
